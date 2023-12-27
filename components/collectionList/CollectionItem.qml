@@ -13,13 +13,16 @@ Item {
 
     // background stripe
     Image {
-        source: '../../assets/images/stripe.png';
-        fillMode: Image.PreserveAspectFit;
+        // source: '../../assets/images/stripe.png';
+        // fillMode: Image.PreserveAspectFit;
+        source: '../../assets/images/devices/' + collectionData.getImage(modelData.shortName) + '.png';
+        fillMode: Image.PreserveAspectCrop;
         horizontalAlignment: Image.AlignRight;
 
         anchors {
             fill: parent;
-            rightMargin: 70;
+            // rightMargin: 70;
+            rightMargin: 0;
         }
     }
 
@@ -114,7 +117,7 @@ Item {
         horizontalAlignment: Image.AlignHCenter;
         asynchronous: true;
         smooth: true;
-        visible: true;
+        visible: false;
 
         anchors {
             verticalCenter: parent.verticalCenter;
