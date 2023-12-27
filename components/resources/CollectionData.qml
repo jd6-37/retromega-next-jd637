@@ -136,7 +136,7 @@ Item {
         '3ds': { color: '#73bc9e', vendor: 'Nintendo', year: '2011-2020' },
         'allgames': { color: '#292463' },
         'amiga': { color: '#724755', vendor: 'Commodore', year: '1985-1996' },
-        'android': { color: '#266f4f' },
+        'android': { color: '#a4c639' },
         'arcade': { color: '#528821' },
         'atari2600': { color: '#4f7524', vendor: 'Atari', year: '1977-1992' },
         'atari5200': { color: '#0685bb', vendor: 'Atari', year: '1982-1984' },
