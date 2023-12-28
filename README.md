@@ -1,3 +1,13 @@
+# Retro Mega Next (JD637 Fork)
+A fork of the great Retro Mega Next theme (see original README below) with a few minor customizations...
+
+- Collection images are now full-screen background images (PSD template included)
+- Re-ordered collections so "All Games", "Favorites", etc is at the end of the list after the collections
+
+That's it for now! Note that only a few collections have the new background images, so any others won't look right. But you can make your own background images with the included PSD template (edit with Photoshop or the free alternative, Photopea.com).
+
+---
+
 # Retro Mega Next
 [Pegasus](https://pegasus-frontend.org) theme for handheld devices.
 
